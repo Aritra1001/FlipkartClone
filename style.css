@@ -71,10 +71,26 @@ header div.flip-icon-con {
   padding: 5px;
 }
 
-.nav-list-con {
+/* .nav-list-con {
   border: 1px solid black;
+} */
+
+.nav-list-con {
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: center;
+  align-items: center;
+  column-gap: 4rem;
 }
 
-ul.nav-list {
-  list-style-type: none;
+.nav-list-con button {
+  background-color: #2874f0;
+  color: white;
+  border: none;
+  height: 2.2rem;
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
 }
