@@ -114,11 +114,47 @@ header div.flip-icon-con {
   width: 3rem;
 }
 
-.item-display-img img{
+.item-display-img img {
   width: 100%;
   height: 100%;
 }
 
-.item-display-description{
+.item-display-description {
   margin-top: 10px;
+}
+
+/* banner section */
+.banner-section {
+  margin: 25px auto 0;
+  /* margin-top: 25px; */
+  width: 95vw;
+  display: grid;
+  grid-template-areas:
+    "banner-1 banner-1 banner-1"
+    "banner-2 banner-3 banner-4";
+  /* grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto auto; */
+  gap: 1.8rem 1rem;
+}
+
+#banner-img1 {
+  grid-area: banner-1;
+}
+
+#banner-img2 {
+  grid-area: banner-2;
+}
+
+#banner-img3 {
+  grid-area: banner-3;
+}
+
+#banner-img4 {
+  grid-area: banner-4;
+}
+
+.banner-img-con img {
+  width: 100%;
+  height: auto;
+  display: block;
 }
