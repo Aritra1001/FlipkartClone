@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: rgb(233, 233, 233);
+  background-color: rgb(239 237 237);
 }
 
 /* header styling */
@@ -207,4 +207,48 @@ header div.flip-icon-con {
   height: auto;
   border-radius: 4px;
   margin-bottom: 10px;
+}
+
+/* footer */
+
+footer {
+  margin-top: 25px;
+  padding: 10px;
+  background-color: #1f1f1f;
+  color: #fff;
+}
+
+.links-con {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(140px, 1fr));
+  justify-items: center;
+}
+
+.list-category {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #b0b0b0;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.links-con ul {
+  list-style-type: none;
+}
+
+.links-con ul li {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 0.7rem;
+}
+
+.links-con ul li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.copyright {
+  text-align: center;
+  margin-top: 20px;
 }
